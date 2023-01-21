@@ -61,6 +61,7 @@ const getChefImages = async () => {
 
   const data = response.data.results;
   const arrOfLinkImg = [data[5], data[0]];
+  test.innerHTML = JSON.stringify(arrOfLinkImg);
 
   // let arrOfLinkImg = data.slice(5, 7);
   console.log(arrOfLinkImg);
@@ -106,6 +107,3 @@ const getImgForInsta = async () => {
 };
 
 getImgForInsta();
-
-const test = "" && "b";
-console.log(test);
