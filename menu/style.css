@@ -2,3 +2,25 @@
   text-decoration: none;
   color: inherit;
 }
+
+main {
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-content {
+  width: 100%;
+}
