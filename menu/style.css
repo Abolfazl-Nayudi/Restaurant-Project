@@ -1,8 +1,6 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
+.menu-page {
+  color: #c8a97e;
+}
 
 .path-from-home .back-home {
   text-decoration: none;
@@ -27,9 +25,15 @@ main {
 }
 
 .tabs {
-  width: 100%;
+  width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.tabs h3 {
+  padding: 1rem 2rem;
+  text-align: center;
+  flex-grow: 1;
 }
 
 /* style the content and img */
@@ -210,4 +214,27 @@ main {
   .content-text {
     width: 100%;
   }
+}
+
+/* make the tabbed content */
+.tab-content > div {
+  display: none;
+}
+
+.tab-content > div.active {
+  display: flex;
+}
+
+.tabs .active {
+  color: white;
+  background-color: #c8a97e;
+}
+
+.tabs h3 {
+  transition: all 0.2s ease;
+}
+
+.tabs h3:hover {
+  color: white;
+  background-color: #c8a97e;
 }
