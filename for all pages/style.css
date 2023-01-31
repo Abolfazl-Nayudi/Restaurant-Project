@@ -4,7 +4,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: bo;
   font-family: "Poppins", sans-serif;
 }
 .header {
@@ -345,6 +344,7 @@
   margin-bottom: 2rem;
   display: flex;
   justify-content: space-around;
+  box-sizing: content-box;
 }
 
 .each-part {
