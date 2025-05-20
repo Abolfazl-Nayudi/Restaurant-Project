@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======== swiper js cdn ======== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- ======== fontawesome cdn ======== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ======== css file ======== -->
+    <link rel="stylesheet" href="./main/style.css" />
+    <title>Tabarok Restaurant</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="banner-parent swiper mySwiper">
+        <div class="overlay"></div>
+        <div class="swiper-wrapper">
+          <div class="img-parent swiper-slide">
+            <img
+              src="https://media.istockphoto.com/id/594465522/photo/grilling-steaks-on-flaming-grill-and-shot-with-selective-focus.jpg?b=1&s=170667a&w=0&k=20&c=KLqzyAm-UbzDx_A4q1HD7tGdTbI_RD3SkaXBRNavpAA="
+              alt=""
+            />
+          </div>
+          <div class="img-parent swiper-slide">
+            <img
+              src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fGZvb2R8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="img-parent swiper-slide">
+            <img
+              src="https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGZvb2R8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="header-info">
+
+        <!--================================== 
+          this section work when we click on the hamburger menu 
+          ===================================-->
+        <section class="right-side-menu">
+          <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="menu-links">
+             <ul class="nav-list-menu">
+              <li class="item home-page-menu"><a href="#">Home</a></li>
+              <!-- <li class="item"><a href="#">About</a></li> -->
+              <li class="item"><a href="./menu.html">Menu</a></li>
+              <li class="item"><a href="./contact.html">Contact</a></li>
+              <li class="item special-menu"><a href="./book-a-table.html">Book a table</a></li>
+            </ul>
+          </nav>
+          </div>
+        </section>
+
+          <!--================================== 
+          this section for shwoing the hamburger menu in 950px screen width 
+          ===================================-->
+        <scetion class="hamburger-menu">
+          <div class="hamburger-web-name">Tabarok</div>
+          <div class="hamburger-icon">
+            <div class="icons">
+              <span class="icon first-row"></span>
+              <span class="icon"></span>
+              <span class="icon third-row"></span>
+            </div>
+            <p class="menu-word">MENU</p>
+          </div>
+        </scetion>
+        
+         <!--================================== 
+          information about the resturant 
+          ===================================-->
+        <section class="info">
+          <span class="call">
+            <i class="fa-solid fa-phone"></i>
+            + 1235 5945 78
+          </span>
+          <span class="email">
+            <i class="fa-solid fa-paper-plane"></i>
+            abolfazl.nayudi@gmail.com
+          </span>
+          <span class="open-time">
+            Open hours: Monday - Sunday 8:00AM - 9:00PM
+          </span>
+        </section>
+        
+          <!--================================== 
+           the navigation 
+          ===================================-->
+        <section class="parent-nav">
+          <div class="web-name">
+            <h1>Tabarok</h1>
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="item home-page"><a href="#">Home</a></li>
+              <!-- <li class="item"><a href="#">About</a></li> -->
+              <li class="item"><a href="./menu.html">Menu</a></li>
+              <li class="item"><a href="./contact.html">Contact</a></li>
+              <li class="item special"><a href="./book-a-table.html">Book a table</a></li>
+            </ul>
+          </nav>
+        </section>
+         <!--================================== 
+           name banner 
+          ===================================-->
+        <section class="name-banner">
+          <h1 class="web-name-banner">Tabarok</h1>
+          <h1 class="web-description-banner">Best Restaurant</h1>
+        </section>
+        <section class="food-img-banner">
+          <!-- in this section i made the circled img with JavaScript -->
+        </section>
+        </section>
+      </header>
+      <main>
+        <section class="food-img-banner-res">
+          <!-- this section will appear when the width of screen size is less than 700px -->
+          <!-- in this section i made the circled img with JavaScript -->
+      </section>
+      <section class="parent-about-info">
+        <section class="about-info">
+          <div class="image">
+            <!--=====================================
+            i put this two images from js
+            =========================================-->
+          </div>
+          <div class="about">
+            <span class="about-text">About</span>
+            <h2>Tabarok</h2>
+            <h2>Restaurant</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eos tempore esse odit quibusdam at eum. Culpa optio, natus hic est necessitatibus nemo neque eligendi pariatur impedit cupiditate, temporibus velit?  </p>
+            <p class="week-days">Mon - Fri <span>8 AM - 11 PM</span></p>
+            <span class="phone-number">+ 1235-5945-78</span>
+          </div>
+        </section>
+    </section>
+
+    <p class="test"></p>
+
+    <section class="count-numbers">
+      <div class="half-row">
+        <div class="counter menu-items">
+          <i class="fa-solid fa-list"></i>
+          <span class="num" data-val="100">0</span>
+          <span class="label">Menu/Dish</span>
+          
+        </div>
+        <div class="counter staffs">
+          <i class="fa-solid fa-user"></i>
+          <span class="num" data-val="50">0</span>
+          <span class="label">Staffs</span>
+        </div>
+      </div>
+      <div class="half-row">
+        <div class="counter happy-customers">
+          <i class="fa-solid fa-smile-beam"></i>
+          <span class="num" data-val="1300">0</span>
+          <span class="label">Happy Customers</span>
+          
+        </div>
+        <div class="counter experience">
+          <i class="fa-solid fa-star"></i>
+          <span class="num" data-val="15">0</span>
+          <span class="label">Years of Experienced</span>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="services-text">
+        <span>Services</span>
+        <h2>Catering Services</h2>
+      </div>
+      <section class="service-part">
+        <div class="each-service">
+          <!-- <i class="fa-regular fa-gift"></i> -->
+          <img class="img-icon" src="./icons/cake.png" alt="">
+          <h3>Birthday Party</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officiis impedit modi qui, saepe necessitatibus.</p>
+        </div>
+        <div class="each-service">
+          <!-- <i class="fa-solid fa-handshake"></i> -->
+          <img class="img-icon" src="./icons/meeting.png" alt="">
+          <h3>Business Meetings</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officiis impedit modi qui, saepe necessitatibus.</p>
+        </div>
+        <div class="each-service">
+          <!-- <i class="fa-solid fa-champagne-glasses"></i> -->
+          <img class="img-icon" src="./icons/3906121.png" alt="">
+          <h3>Wedding Party</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officiis impedit modi qui, saepe necessitatibus.</p>
+        </div>
+      </section>
+    </section>
+    <!-- <section class="Specialties">
+      <div class="menu-text">
+        <span>Specialties</span>
+        <h2>Our Menu</h2>
+      </div>
+      <section class="all-carousels">
+        <section class="each-carousel">
+          <div class="food-type">
+            <h3>Steaks</h3>
+          </div>
+          <div></div>
+        </section>
+      </section>
+    </section> -->
+    </main>
+    <footer class="footer">
+      <section class="details">
+        <div class="each-part social">
+          <h2>Tabarok</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dolorum nisi quisquam blanditiis at odit?</p>
+          <div class="social-icon">
+            <a href="#">
+              <span>
+                <i class="fa-brands fa-twitter"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span>
+                <i class="fa-brands fa-facebook-f"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span>
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="each-part open-hours">
+          <h2>Open Hours</h2>
+          <ul class="time-list">
+            <li class="day-hour">
+              <span class="day">Monday</span>
+              <span class="hour">9:00 - 24:00</span>
+            </li>
+            <li class="day-hour">
+              <span class="day">Tuesday</span>
+              <span class="hour">9:00 - 24:00</span>
+            </li>
+            <li class="day-hour">
+              <span class="day">Wednesday</span>
+              <span class="hour">9:00 - 24:00</span>
+            </li>
+            <li class="day-hour">
+              <span class="day">Thursday</span>
+              <span class="hour">9:00 - 24:00</span>
+            </li>
+            <li class="day-hour">
+              <span class="day">Friday</span>
+              <span class="hour">9:00 - 02:00</span>
+            </li>
+            <li class="day-hour">
+              <span class="day">Saturday</span>
+              <span class="hour">9:00 - 02:00</span>
+            </li>
+            <li class="day-hour">
+              <span class="day">Sunday</span>
+              <span class="hour">9:00 - 02:00</span>
+            </li>
+          </ul>
+        </div>
+        <div class="each-part instagram">
+          <h2>Instagram</h2>
+          <div class="img-insta">
+            <!-- get image from api and js file -->
+            <div class="first part"></div>
+            <div class="second part"></div>
+          </div>
+        </div>
+        <div class="each-part newsletter">
+          <h2>Newletter</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolor?</p>
+          <form class="get-news" >
+            <input type="eamil" placeholder="Enter email address" required>
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </section>
+      <section class="copy-right">
+        <p>Copyright ©2023 All rights reserved | This template is made with &hearts; by <em>Abolfazl Nayudi</em></p>
+      </section>
+    </footer>
+    <!-- axios cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+    <!-- index.js for request and fetch data -->
+    <script src="./main/index.js"></script>
+
+    <!-- app.js for working with dom and make the website intractive -->
+    <script src="./main/app.js"></script>
+  </body>
+</html>
