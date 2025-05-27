@@ -34,6 +34,7 @@ main {
   padding: 1rem 2rem;
   text-align: center;
   flex-grow: 1;
+  cursor: pointer;
 }
 
 /* style the content and img */

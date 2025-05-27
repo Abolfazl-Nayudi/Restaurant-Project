@@ -3,8 +3,28 @@ const lunchImg = document.querySelectorAll(".parent-img.lunch");
 const dinnerImg = document.querySelectorAll(".parent-img.dinner");
 const juiceImg = document.querySelectorAll(".parent-img.juice");
 const dessertImg = document.querySelectorAll(".parent-img.dessert");
-console.log(lunchImg);
+
 const apiKey = "96lBuJ_i9p6iLiTZglcQMBokDgl-_i1klr4HHSmkBHU";
+
+const tabs = document.querySelectorAll(".tabs h3");
+const tabContents = document.querySelectorAll(".tab-content > div");
+console.log(tabs, tabContents);
+
+// ==========================================
+//                 tabs functionality
+// ==========================================
+tabs.forEach((tab, index) => {
+  tab.addEventListener("click", () => {
+    tabContents.forEach((content) => {
+      content.classList.remove("active");
+    });
+    tabs.forEach((tab) => {
+      tab.classList.remove("active");
+    });
+    tabContents[index].classList.add("active");
+    tabs[index].classList.add("active");
+  });
+});
 
 // ==========================================
 //                 breakfast
